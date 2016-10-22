@@ -1,10 +1,11 @@
 {
   "name": "scaffold",
   "version": "0.0.1",
-  "description": "自己用的脚手架",
+  "description": "Gulp scaffold for Mutil page website",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp serve"
+    "dev": "gulp default",
+    "build": "gulp build"
   },
   "author": "kokoro",
   "license": "ISC",
