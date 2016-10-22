@@ -1,6 +1,6 @@
 # scaffold
 > gulp 搭建的多页面用脚手架
-> 预处理器为sass
+> css处理使用postcss
 
 ## Installation
 ``` bash
