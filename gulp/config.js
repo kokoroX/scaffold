@@ -2,9 +2,9 @@ var src = './src';
 var dest = './dist';
 
 module.exports = {
-  sass: {
-    all: src + '/sass/**/*.scss',
-    src: src + '/sass/*.scss',
+  postcss: {
+    all: src + '/css/**/*.css',
+    src: src + '/css/*.css',
     dest: dest + '/css',
     settings: {}
   },

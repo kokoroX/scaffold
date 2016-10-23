@@ -6,7 +6,7 @@ var config = require('../config');
 gulp.task('watch', function () {
   browserSync.init(config.browser);
 
-  gulp.watch(config.sass.all, ['postcss']);
+  gulp.watch(config.postcss.all, ['postcss']);
   gulp.watch(config.html.all, ['html']);
   gulp.watch(config.images.src, ['images']);
   gulp.watch(config.js.src, ['javascripts']);

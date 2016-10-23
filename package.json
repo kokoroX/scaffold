@@ -10,9 +10,9 @@
   "author": "kokoro",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer-core": "^6.0.1",
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-clean": "^0.3.2",
     "gulp-filter": "^4.0.0",
     "gulp-notify": "^2.2.0",
