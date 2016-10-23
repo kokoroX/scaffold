@@ -24,6 +24,11 @@ module.exports = {
     src: dest
   },
   browser: {
-    server: dest
+    files: dest + '/**/*',
+    open: true,
+    port: 3000,
+    server: {
+      baseDir: dest
+    }
   }
 }
